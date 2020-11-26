@@ -13,7 +13,7 @@
 
 if "XMLY_SPEED_COOKIE" in os.environ:
     """
-    判断是否运行自GitHub action,"XMLY_SPEED_COOKIE" 该参数与 repo里的Secrets的名称保持一致
+    判断是否运行自GitHub action,"wooo" 该参数与 repo里的Secrets的名称保持一致
     """
     print("执行自GitHub action")
     xmly_speed_cookie = os.environ["XMLY_SPEED_COOKIE"]
